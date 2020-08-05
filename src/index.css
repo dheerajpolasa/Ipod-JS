@@ -1,0 +1,141 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  background-color: lightgray;
+  height: 500px;
+  width: 500px;
+  margin: 5% auto;
+  /* align-items: flex-start; */
+}
+
+.container {
+  margin: auto;
+  width: 300px;
+  height: 250px;
+  background-image: url(https://foodravel.com/wp-content/uploads/2018/08/Goa-HD-Sunset-Wallpapers.jpg);
+  background-size: auto;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.main-menu {
+  /* margin: auto 15%; */
+  /* margin-top:  20%;  */
+  background-color: rgb(148, 143, 147);
+  width: 100px;
+  height: 190px;
+  padding: 10%;
+}
+
+.main-menu div {
+  width: 100%;
+  border: 0.5px solid black;
+  padding: 5%;
+  margin: 5%;
+  color: whitesmoke
+}
+
+.active {
+  /* background-color: blue; */
+  background-color: #353435;
+/* background-image: linear-gradient(315deg, #f876de 0%, #b9d1eb 74%); */
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+
+.wheel {
+  margin: auto;
+  margin-top: -9%;
+  width: 300px;
+  height: 160px;
+  background-color:rgb(168, 163, 167);
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+
+.inner-circle {
+    height: 18vh;
+    width: 40%;
+    margin-top: 4%;
+    margin-left: 26%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.menu-btn {
+  width: 100px;
+  margin-left: -4.1%;
+  margin-top: -0.8%;
+}
+
+.center-btn {
+    margin: auto;
+    width: 60%;
+    height: 11vh;
+    margin-top: 19%;
+    border-radius: 50%;
+    background-color: rgb(168, 163, 167);
+    text-align: center;
+}
+
+.next-btn {
+  width: 100px;
+  /* margin: 5%; */
+  margin-left: 0.5%;
+  margin-top: 3.5%;
+}
+
+.prev-btn {
+  width: 100px;
+  /* margin-top: -15%; */
+  margin-left: -8.6%;
+  margin-top: 3.6%;
+}
+
+.play-btn {
+  margin-top: 7.6%;
+  margin-left: -1%;
+}
+
+
+.wheel button {
+  outline: none;
+  border: none;
+  background: none;
+  position: absolute;
+}
+
+.song-container {
+  width: 100%;
+  height: 100%;
+  background-color: salmon;
+}
+
+.audio-container audio {
+  margin-top: 72%;
+  height: 5vh;
+  width: 80%;
+}
